@@ -1,0 +1,16 @@
+.video-item {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.video-item:last-child {
+  margin-bottom: 0;
+}
+
+.video-item img {
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.33);
+  margin-right: 20px;
+  width: 55%;
+}

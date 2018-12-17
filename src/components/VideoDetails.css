@@ -1,0 +1,15 @@
+.video-details {
+  box-shadow: 1px 3px 2px 0px rgba(0,0,0,0.33);
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  margin-right: 20px;
+  width: 60%;
+}
+
+.video-details iframe {
+  border: 1px solid #191919;
+  min-height: 75%;
+  margin: 0 auto;
+  width: 100%;
+}

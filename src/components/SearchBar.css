@@ -1,0 +1,14 @@
+.search-bar {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.search-bar input {
+  background-color: #191919;
+  border: 1px solid #383838;
+  color: #FFF;
+  font-size: 1.1rem;
+  height: 30px;
+  margin-left: 20px;
+  width: 60%;
+}
