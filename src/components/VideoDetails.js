@@ -1,9 +1,6 @@
-import React from 'react';
-import './SharedStyles.css';
-import './VideoDetails.css';
+import React from "react";
 
-const VideoDetails = ({video}) => {
-
+const VideoDetails = ({ video }) => {
   if (!video) {
     return <div className="video-details shared-styles">Loading...</div>;
   }
@@ -17,6 +14,6 @@ const VideoDetails = ({video}) => {
       <p>{video.snippet.description}</p>
     </div>
   );
-}
+};
 
 export default VideoDetails;

@@ -1,22 +1,18 @@
-import React from 'react';
-import VideoItem from './VideoItem';
-import './SharedStyles.css';
-import './VideoList.css';
+import React from "react";
+import VideoItem from "./VideoItem";
 
-const VideoList = ({videos, onVideoSelect}) => {
-
+const VideoList = ({ videos, onVideoSelect }) => {
   const renderedList = videos.map(video => {
-
-    return <VideoItem
+    return (
+      <VideoItem
         video={video}
         onVideoSelect={onVideoSelect}
         key={video.id.videoId}
       />
-
+    );
   });
 
-  return <div className='video-list shared-styles'>{renderedList}</div>;
-
+  return <div className="video-list shared-styles">{renderedList}</div>;
 };
 
 export default VideoList;
